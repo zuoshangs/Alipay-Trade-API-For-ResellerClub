@@ -28,7 +28,7 @@
 
 <?php
 		
-		$key = $alipay_config['key']; //replace ur 32 bit secure key , Get your secure key from your Reseller Control panel
+		$key = $alipay_config['rc_key']; //replace ur 32 bit secure key , Get your secure key from your Reseller Control panel
 		
 		//This filter removes data that is potentially harmful for your application. It is used to strip tags and remove or encode unwanted characters.
 		$_GET = filter_var_array($_GET, FILTER_SANITIZE_STRING);

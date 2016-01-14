@@ -13,7 +13,7 @@
 <font size=4>
 
 <?php
-		$key = $alipay_config['key']; //replace ur 32 bit secure key , Get your secure key from your Reseller Control panel
+		$key = $alipay_config['rc_key']; //replace ur 32 bit secure key , Get your secure key from your Reseller Control panel
 	    
 
 		$redirectUrl = $_SESSION['redirecturl'];  // redirectUrl received from foundation

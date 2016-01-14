@@ -34,6 +34,9 @@ $alipay_config['notify_url']	= 'xxxxx';
 //同步返回地址
 $alipay_config['return_url']	= 'xxxxx';
 
+//resellerclub的key
+$alipay_config['rc_key']			= 'xxxxx';
+
 
 
 
