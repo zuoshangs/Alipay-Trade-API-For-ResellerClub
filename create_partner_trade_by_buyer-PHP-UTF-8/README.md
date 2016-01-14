@@ -25,4 +25,6 @@ ResellerClub支付宝担保交易接口，只支持同步返回，不支持异�
        
 2、把整个文件夹传到自己的服务器空间上。
 
-3、在ResellerClub后台支付方式中填写网关名称为支付宝，URL网址为http://自己的域名/alipay/create_partner_trade_by_buyer-PHP-UTF-8/paymentpage.php
+3、在ResellerClub后台支付方式中填写网关名称为支付宝，
+
+   URL网址为http://自己的域名/alipay/create_partner_trade_by_buyer-PHP-UTF-8/paymentpage.php
