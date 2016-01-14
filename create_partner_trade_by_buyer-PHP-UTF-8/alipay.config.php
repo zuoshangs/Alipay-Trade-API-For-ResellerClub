@@ -20,22 +20,22 @@
  
 //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 //合作身份者id，以2088开头的16位纯数字
-$alipay_config['partner']		= 'xxxxxxx';
+$alipay_config['partner']		= '208800xxxxxxxxxx';
 
 //收款支付宝账号，一般情况下收款账号就是签约账号
-$alipay_config['seller_email']	= 'xxxx@xxxx.com';
+$alipay_config['seller_email']	= 'xxx@xxx.com';
 
 //安全检验码，以数字和字母组成的32位字符
-$alipay_config['key']			= 'xxxxx';
+$alipay_config['key']			= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 //异步回调地址
-$alipay_config['notify_url']	= 'xxxxx';
+$alipay_config['notify_url']	= 'http://xxx.com/alipay/create_partner_trade_by_buyer-PHP-UTF-8/notify_url.php';
 
 //同步返回地址
-$alipay_config['return_url']	= 'xxxxx';
+$alipay_config['return_url']	= 'http://xxx.com/alipay/create_partner_trade_by_buyer-PHP-UTF-8/return_url.php';
 
 //resellerclub的key
-$alipay_config['rc_key']			= 'xxxxx';
+$alipay_config['rc_key']			= 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
 
 

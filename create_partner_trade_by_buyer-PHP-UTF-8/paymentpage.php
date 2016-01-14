@@ -85,8 +85,8 @@
 		require_once("alipay.config.php");
 		require_once("lib/alipay_submit.class.php");
 		$payment_type = "1";
-		$notify_url = $alipay_config['$notify_url'];
-        $return_url = $alipay_config['$return_url'];
+		$notify_url = $alipay_config['notify_url'];
+        $return_url = $alipay_config['return_url'];
 		$logistics_type = "EXPRESS";
 		$logistics_payment = "SELLER_PAY";
 		
